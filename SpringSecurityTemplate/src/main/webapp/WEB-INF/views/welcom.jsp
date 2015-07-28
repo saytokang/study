@@ -4,5 +4,8 @@
 
 <body>
 	<h1>환영합니다.</ht>
+	<br>
+	
+	<a href="/j_spring_security_logout">Logout</a>
 </body>
 <html>
