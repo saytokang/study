@@ -14,9 +14,9 @@
 	<!-- datasource & pool 설정. -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://127.0.0.1:3306/test" />
-		<property name="username" value="root" />
-		<property name="password" value="pass" />
+		<property name="url" value="jdbc:mysql://112.221.97.203:3306/purenine" />
+		<property name="username" value="purenine" />
+		<property name="password" value="purenine1234" />
 	</bean>
 
 	<!-- mybatis 설정. -->

@@ -6,7 +6,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="User">
 	
 	<select id="getUser" parameterType="string" resultType="map">
-		select * from tb_user where user_id = #{username}
+		select * from tb_core_user_info where user_id = #{username}
 	</select>
 
 </mapper>
